@@ -61,6 +61,69 @@
          /* Если не получилось, загрузит woff2 */
          url("SF-Pro-Display-Black.woff2") format("woff2")
 }
+@font-face {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 300;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("SF Pro Text"),
+         /* Если не получилось, загрузит woff2 */
+         url("SF-Pro-Text-Light.woff2") format("woff2")
+}
+@font-face {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("SF Pro Text"),
+         /* Если не получилось, загрузит woff2 */
+         url("SF-Pro-Text-Regular.woff2") format("woff2")
+}
+@font-face {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 500;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("SF Pro Text"),
+         /* Если не получилось, загрузит woff2 */
+         url("SF-Pro-Text-Medium.woff2") format("woff2")
+}
+@font-face {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 600;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("SF Pro Text"),
+         /* Если не получилось, загрузит woff2 */
+         url("SF-Pro-Text-Semibold.woff2") format("woff2")
+}
+@font-face {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 700;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("SF Pro Text"),
+         /* Если не получилось, загрузит woff2 */
+         url("SF-Pro-Text-Bold.woff2") format("woff2")
+}
+@font-face {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 800;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("SF Pro Text"),
+         /* Если не получилось, загрузит woff2 */
+         url("SF-Pro-Text-Heavy.woff2") format("woff2")
+}
+@font-face {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 900;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("SF Pro Text"),
+         /* Если не получилось, загрузит woff2 */
+         url("SF-Pro-Text-Black.woff2") format("woff2")
+}
 
 body {
     margin: 0%;
