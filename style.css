@@ -1,0 +1,92 @@
+body {
+    margin: 0%;
+}
+/* Вверх страницы */
+.heading {
+    text-align: center;
+}
+table.head {
+    border-spacing: 0pt;
+    padding-inline: 0%;
+    text-align: center;
+    background: #333;
+}
+/* Форматирование текста */
+h1, h2{
+    font-family: "SF Pro Display";
+}
+h3, h4, h5, h6, h7, p{
+    font-family: "SF Pro Text";
+}
+h1 {
+    padding-inline: 7%;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+h1.heading {
+    padding-top: 60pt;
+    font-size: 47pt;
+    font-weight: 600;
+    color: #121212;
+}
+h1.summary {
+    font-weight: 600;
+    color: #121212;
+}
+p.heading {
+    color: #007AFF;
+    font-size: 15pt;
+}
+p.none-summary{
+    font-size: larger;
+    font-weight: 700;
+}
+.nameiphone {
+    font-family: "SF Pro Text";
+    font-weight: 600;
+}
+a.nameiphone {
+    float: right;
+    color: #007AFF;
+}
+
+
+/* Таблица */
+table {
+    table-layout: fixed;
+    width: 100%;
+    padding-inline: 5%;
+    font-family: "SF Pro Display";
+    border-spacing: 20pt;
+    text-align: center;
+}
+td.nameiphone {
+    text-align: start;
+    border: 1pt solid lightgrey;
+    border-radius: 4pt;
+    padding: 12pt;
+    margin-right: 100%;
+}
+td.price {
+    padding: 32pt;
+    font-weight: 700;
+    border-top: 1pt solid #a8a8a8;
+}
+td.price-reseil {
+    padding: 32pt;
+    border-top: 1pt solid #a8a8a8;
+    color: #505050;
+}
+td.summary-text {
+    font-weight: 700;
+    vertical-align: top;
+}
+td.summary-text-icon {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 55pt;
+    font-weight: 600;
+}
+td.summary-line {
+    border-top: 1pt solid #a8a8a8;
+}
